@@ -1,55 +1,12 @@
-# InsightGPT
+# React + Vite
 
-InsightGPT is a local, AI-powered Business Analyst Agent that automates EDA, KPI extraction, charting, and smart insights from CSV, Excel, or JSON files — all with zero coding. Built with open-source LLMs like Phi-2 and TinyLlama.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🔍 What It Does
+Currently, two official plugins are available:
 
-- 📊 Performs Exploratory Data Analysis (EDA)
-- 🧮 Extracts KPIs and key statistics
-- 📈 Auto-generates charts and visualizations
-- 🤖 Generates natural language insights using LLMs
-- 💬 Answers business questions from your data (RAG-powered)
-- 🧠 Remembers feedback and session goals
-- 📤 Exports full reports to PDF and HTML
-- 🛡️ Runs fully offline with local models (Phi-2)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## ⚙️ Tech Stack
-
-| Layer         | Tools Used |
-|---------------|------------|
-| Language      | Python |
-| LLMs          | HuggingFace Transformers, Phi-2, TinyLlama |
-| Frontend      | Streamlit |
-| Charts        | Matplotlib |
-| EDA / KPIs    | pandas, NumPy |
-| Export        | reportlab, HTML |
-| Others        | Docker, GitHub Actions (CI/CD), .env security |
-
----
-
-## 📦 Features
-
-- ✅ Cloud vs. Local model toggle
-- ✅ Memory recall and feedback loops
-- ✅ Smart domain detection (Retail, Healthcare, Finance, etc.)
-- ✅ Modular architecture (easy to extend)
-- ✅ Clean, professional UI
-- ✅ Built for demos, resumes, and real-world impact
-
----
-
-## 📸 Screenshots
-
-Coming soon! (Live demo GIF + chart samples)
-
----
-
-## 🚀 How to Run
-
-```bash
-git clone https://github.com/ayaansd/InsightGPT.git
-cd InsightGPT
-pip install -r requirements.txt
-streamlit run app.py
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
